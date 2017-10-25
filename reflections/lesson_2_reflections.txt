@@ -1,0 +1,38 @@
+1) What happens when you initialize a repository? Why do you need to do it?
+    a) Git init turns a folder into a git repository which means that I can
+      start tracking files and changes to those files.
+
+2) How is the staging area different from the working directory and the repository?
+What value do you think it offers?
+    a) This staging area is an area where I can stage filed to be committed.
+      This allows me to group some files, out of all of the changed files in
+      the working directory, so that the grouped files can be committed together
+
+3) How can you use the staging area to make sure you have one commit per logical
+change?
+    a) As I work, I'm changing files in my working directory. If I made several
+      changes, I can then group files related to each logical change by choosing
+      just those files, adding them into the staging area, and then committing
+      them. I can do this for each logical change, therefore committing to my
+      repository the groups of files related to each logical change.
+
+4) What are some situations when branches would be helpful in keeping your history
+organized? How would branches help?
+    a) If I wanted to experiment with a new feature, I could use a new branch.
+      Or If I wanted to create a new version of a project, I could create a new
+      branch. It is good to use the master branch as a stable branch, the branch
+      where everything is working well just as it is, and then use other
+      branches to experiment with changes.
+
+5) How do the diagrams help you visualize the branch structure?
+    a) They show me the sequence of commits; what's reachable and what's not.
+
+6) What is the result of merging two branches together? Why do we represent it in
+the diagram the way we do?
+    a) The commits from each branch will be interleaved together.
+
+7) What are the pros and cons of Git's automatic merging vs. always doing merges
+manually?
+    a) Pros : Saves my time, especially when there are conflicts to resolve;
+      Makes your concentrate on the changes which actually contain conflicts.
+    b) Cons : I don't know.
