@@ -8,17 +8,14 @@ Stephanie Kim
     probably end up making much more mistakes.
 2) How could having easy access to the entire history of a file make you a
   a better programmer in the long term?
-    a) There are many ways this can be helpful. I would be able to look back on
-    the files of the older version later if I had another problem which would
-    allow me to see how I fixed the problem. Also, it would allow me to work
-    with the code without the fear of completely losing my work on the program
-    I'm working on.
+    a) I would be able to look back on the files of the older version later if 
+    I had another problem which would allow me to see how I fixed the problem. 
 3) What do you think are the pros and cons of manually choosing when to create a
   commit, like you do in Git, vs having versions automatically saved, like
   Google docs does?
-    a) The advantages would be having every commit make sense to the user. It
-    wouldn't allow changes to happen mid line and I am able to manually tag each
-    change in the commit. The disadvantage would be user error and forgetting to
+    a) The advantages would be having every commit make sense to me. It
+    wouldn't allow changes to happen suddenly and I am able to manually make each
+    change in the commit. The disadvantage would be an error and forgetting to
     commit or not publishing commits at the right time.
 4) Why do you think some version control systems, like Git, allow saving
   multiple files in one commit, while others, like Google Docs, treat each file
