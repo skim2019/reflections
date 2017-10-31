@@ -1,0 +1,42 @@
+1) When would you want to use a remote repository rather than keeping all your 
+  work local?
+    a) Probably when I'm working with another person. Specifically, when I want 
+      to share my code with someone. Also, I can use it when I want to edit a 
+      code from a different computer and at the same time back up the work.
+       
+2) Why might you want to always pull changes manually rather than having Git 
+  automatically stay up-to-date with your remote repository?
+    a) When I'm working on a code, Git won't save automatically without me 
+    expecting it. When I'm working on fixing a code, I might not want Git to
+    automatically save the change (is there is a bug) until I change it.
+
+3) Describe the differences between forks, clones, and branches. When would you
+  use the one instead of another?
+    a) They are all ways to add new changes without affecting the original 
+      version. Forking and cloning both copy an entire repository to a new 
+      place. Forking is a special thing made by GitHub. You can only fork a 
+      GitHub repository to another location on GitHub, while you can clone any
+      GitHub repository to anywhere. With branches, the new changes are added
+      in the same repository. I would use branching when I want to add new 
+      changes to a repository while keeping the previous version. I would fork
+      a repository when I want to make changes to that repository, not on the 
+      original. And clone when I want to work on the local repository.
+
+4) What is the benefit of having a copy of the last unknown state of the remote
+  stored locally?
+    a) Possibly by having a copy of the last unknown state, I will be able to 
+    code before saving and commiting into a branch, or I can just have an easy
+    way to look at it.
+
+5) How would you collaborate on Git or GitHub? What would be easier, and what
+  would be harder?
+    a) When collaborating with someone, it is a good idea to make a shared 
+    folder. The hard part of that would be if we wanted to work on the same 
+    file, then it would be difficult to avoid messing up each other's changes.
+
+6) When would you want to make changes in a separate branch rather than directly
+  in master? What benefits does each approach have?
+    a) I would use the master branch when I am certain of the changes I have 
+    made and usually if I would work by myself. I would work on a separate
+    branch when multiple changes are being made such as working with many
+    people on the same file to avoid more changes being made. 
